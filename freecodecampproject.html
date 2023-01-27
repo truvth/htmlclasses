@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+  <h1>Cat Photo App</h1>
+  <!--TODO Include a Nav element for html flow-->
+  <nav>
+    <ul>
+      <li><a href="#catphotos">Cat Photos</a>
+      <li><a href="#catlists">Cat Lists</a>
+      <li><a href="#catform">Cat Form</a>
+    </ul>
+  </nav>
+  <section id="catphotos">
+    <h2>Cat Photos</h2>
+    <p>See more <a href="https://www.womansday.com/life/g32979681/cute-cat-photos/" target="_blanl">cat photos</a> in our gallery</p>
+    <a href="https://www.countryliving.com/life/kids-pets/a28448103/cat-instagram-captions/" target="_blank"><img src="https://hips.hearstapps.com/hmg-prod/images/cute-cat-captions-1563551865.jpg?crop=0.668xw:1.00xh;0.199xw,0&resize=768:*" alt="A ginger colored cute Cat"></a>
+  </section>
+  <section id="catlists">
+    <h2>Cat Lists</h2>
+    <div>
+      <h3>Things Cats love:</h3>
+      <ul>
+        <li>Cat Nip</li>
+        <li>Laser Pointers</li>
+        <li>Lasagna</li>
+      </ul>
+      <figure>
+        <a href="https://www.recipetineats.com/lasagna/" target="_blank"><img src="https://www.recipetineats.com/wp-content/uploads/2017/05/Lasagne-recipe-3-main-square.jpg?w=500&h=500&crop=1" alt="A traditional Italian Lasagna made with Bolognese ragu and cheese sauce"></a>
+        <figcaption>Cats <em>love</em> lasagna</figcaption>
+      </figure>
+    </div>
+    <div>
+      <h3>Top 3 things Cats hate:</h3>
+      <ol>
+        <li>Flea treatment</li>
+        <li>Thunder</li>
+        <li>Other cats</li>
+      </ol>
+      <figure>
+        <a href="https://cooindacatresort.com.au/blog/what-is-a-group-of-cats-called/" target="_blank"><img src="https://cooindacatresort.com.au/wp-content/uploads/2018/02/cooinda-cat-resort-cat-clowder_orig.jpg" alt="A clowder of cats"></a>
+        <figcaption>Cats <strong>hate</strong> other cats</figcaption>
+      </figure>
+    </div>
+  </section>
+  <section id="catform">
+    <h2>Cat Form</h2>
+    <form>
+      <fieldset>
+        <legend>Is your cat an Indoor or Outdoor cat?</legend>
+        <label for="indoor">
+          <input type="radio" id="indoor" name="indoor or outdoor" value="indoor"> Indoor
+        </label>
+        <label for="outdoor">
+         <input type="radio" id="outdoor" name="indoor or outdoor" value="outdoor"> Outdoor</label>
+      </fieldset>
+      <fieldset>
+        <legend>What's your cat's personality?</legend>
+        <label for="loving"><input type="checkbox" id="loving" name="personality" value="loving"> Loving</label>
+        <label for="lazy"><input type="checkbox" id="lazy" name="personality" value="lazy"> Lazy</label>
+        <label for="energetic"><input type="checkbox" id="energetic" name="personality" value="energetic"> Energetic</label>
+      </fieldset>
+      <input type="text" placeholder="cat photo URL" name="catphotourl" required>
+      <button type="submit"> Submit</button>
+    </form>
+</body>
+<footer>
+  <p>No Copyright -<a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp.org</a>
+<footer>
+</html>
